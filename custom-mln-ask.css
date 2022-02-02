@@ -1,0 +1,169 @@
+/*--- Welcome slider - move up on page a little bit ---*/
+.home #main {
+    padding-top: 25px;
+}
+
+.fusion-section-separator {
+  margin-bottom: 40px;
+}
+
+.width-100 .fullwidth-box, .width-100 .fusion-section-separator {
+    margin: 20px -30px;
+}
+
+/*--- Footer Widget 3 - Email Us - modify in media queries also ---*/
+#text-8 {width: 200%;}
+
+/*--- images ---*/
+img {
+border: 1px solid #333;
+}
+
+.flexslider .slides img {
+border: 1px solid #ebeaea;
+}
+
+.fusion-logo img, .noborder img,
+.noborder {
+    border: 0px solid #ebeaea;
+}
+
+/*--- About page - Team sections ---*/
+.fusion-person .person-desc .person-author .person-title {font-size: 15px;}
+.fusion-person .person-desc .person-author .person-author-wrapper {
+    font-family: "PT Sans",Arial,Helvetica,sans-serif;
+    min-width: 75%;
+}
+.fusion-person .person-desc .person-author .fusion-social-networks {
+    max-width: 24%;
+}
+
+/*--- About page - Reading Boxes should be same as h4 in Team section ---*/
+#main .reading-box h2 {
+    color: #725994;
+    font-size: 18px;
+}
+
+/*--- h1 and h2 were buggy and setting bold instead of normal ---*/
+h1, h2 {font-weight: 600;}
+
+/*--- blockquotes in sidebars don't need left-right margin space ---*/
+.textwidget blockquote {
+    margin-left: 0;    margin-right: 0;
+}
+
+.wp-caption-text {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fusion-title-size-two .top {
+    margin-top: 0;
+}
+
+/*--- resources page - subgroups ---*/
+.fusion-post-content .subgroup h5, .fusion-title .subgroup h5, 
+.post-content .subgroup h5, .title .subgroup h5,
+.post-content .subgroup h4 {
+    color: #eeab5a;
+}
+
+/*--- Legislation Map ---*/
+#usmap2015 {text-align: center;} /*--- hide on mobile ---*/
+#maplist2015 {display: none;} /*--- show on mobile ---*/
+.maplist2015green {color: #80bd5e;}
+.maplist2015grey {color: #999999;}
+
+/*
+Media Queries
+----------------------------------------------*/
+
+/* Desktops, laptops and iPads (landscape)
+--------------------------------------------- */
+
+@media only screen and (max-width: 1140px) {
+
+	
+  
+
+}
+
+
+
+
+/* iPads (landscape)
+--------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+
+.fusion-main-menu > ul > li {
+    padding-right: 40px;
+}
+
+}
+
+
+/* My own custom setting for breaking point --------------------------------------------- */
+
+@media only screen and (max-width: 868px) {
+
+/*--- Footer Widget 3 - Email Us ---*/
+#text-8 {width: 100%;}
+
+
+
+}
+
+
+/* iPhones (portrait and landscape) --------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+
+  
+  
+
+
+}
+
+
+/* Kindle Fire & Tablets
+--------------------------------------------- */
+
+@media only screen and (max-width: 603px) {
+
+	
+
+
+}
+
+
+
+/* Kindle
+--------------------------------------------- */
+@media only screen and (max-width: 533px) {
+
+#usmap2015 { display: none;  }
+#maplist2015 { display: block; }
+	
+}
+
+
+/* iPhones (portrait)
+--------------------------------------------- */
+
+@media only screen and (max-width: 375px) {
+
+
+  
+  }
+
+
+/* Small Phones (portrait)
+--------------------------------------------- */
+
+@media only screen and (max-width: 240px) {
+  
+
+
+	
+}
