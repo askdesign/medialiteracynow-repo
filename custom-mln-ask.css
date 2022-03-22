@@ -1,3 +1,39 @@
+/* --- hyperlinks --- */
+/* --- charcoal grey for heads; blue for body text --- */
+#main .post h2 a,
+#wrapper #main .post-content .fusion-title h2, 
+#wrapper #main .post-content .title h2, #wrapper .fusion-title h2, 
+#wrapper .post-content h2, #wrapper .title h2 {
+    color: #515151;
+}
+
+#main .post h2 a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+/* --- About page - Reading Boxes should be same as h4 in Team section --- */
+#main .reading-box h2 {
+    color: #932C9B;
+    font-size: 18px;
+}
+
+p a {
+    color: #67aed0;
+    text-decoration: underline
+}
+
+p a:hover {
+    color: #80bd5e;
+    text-decoration: underline
+}
+
+.fusion-main-menu ul a, .fusion-main-menu ul a:hover,
+.fusion-blog-shortcode .fusion-read-more {
+    text-decoration: none;
+}
+
+
 /* --- Welcome slider - move up on page a little bit --- */
 
 .home #main {
