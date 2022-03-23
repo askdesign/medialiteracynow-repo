@@ -23,13 +23,14 @@ p a {
     text-decoration: underline
 }
 
-p a:hover {
+p a:hover, .fusion-blog-shortcode a:hover, .fusion-read-more:hover:after, .fusion-content-widget-area .widget li a:hover {
     color: #80bd5e;
     text-decoration: underline
 }
 
 .fusion-main-menu ul a, .fusion-main-menu ul a:hover,
-.fusion-blog-shortcode .fusion-read-more {
+.fusion-blog-shortcode a:hover, .fusion-read-more:hover:after,
+.fusion-content-widget-area .widget li a:hover {
     text-decoration: none;
 }
 
