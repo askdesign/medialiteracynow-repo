@@ -1,3 +1,33 @@
+/* -- CUSTOMIZER 
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+/* --- ninja forms --- */
+
+.nf-field-element input, .nf-field-element select, .nf-field-element textarea {
+    min-height: 32px;
+}
+
+.fusion-header-v4 .fusion-main-menu:hover {
+	overflow:hidden;
+}
+
+/* --- Donate --- */
+.fusion-main-menu>ul>li.menu-button { 
+background-color:#80BD5E;
+border:1px;
+border-radius:1px;
+margin-right: 4px;
+padding-left: 4px;
+}
+.menu-button a,  .menu-button a:hover, .menu-button a:active { 
+color:#fff !important;
+}
+
+
+/* --- AVADA > OPTIONS > CUSTOM CSS --- */
 /* --- hyperlinks --- */
 /* --- charcoal grey for heads; blue for body text --- */
 #main .post h2 a,
